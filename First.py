@@ -1,1 +1,1 @@
-print("Gay Ganesh!!!")
+print("Jay Ganesh!!!")
