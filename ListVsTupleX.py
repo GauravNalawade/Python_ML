@@ -19,5 +19,5 @@ def main():
     print(Data1[0])
     print(Data2[0])
   
-if __name__=="__main__":
+if __name__=="__main__": 
     main()  

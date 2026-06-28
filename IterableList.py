@@ -1,0 +1,6 @@
+Data=[10,21,51,101]
+
+print("Data From List is: ")
+
+for no in Data:
+    print(no)

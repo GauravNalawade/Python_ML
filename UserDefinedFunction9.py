@@ -5,7 +5,6 @@ def BigBazar():
         print("Inside Amul")
     
     Amul()
-    Amul()
 
 def main():
     BigBazar()        
