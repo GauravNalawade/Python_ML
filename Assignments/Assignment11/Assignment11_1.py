@@ -3,11 +3,10 @@ def isPrime(No):
         return False
 
     for i in range(2,No):
-        if No % i ==0:
+        if No % i == 0:
             return False
         
     return True
-
 
 def main():
     print("Enter Number: ")
