@@ -1,4 +1,4 @@
-CheckOddNum = lambda No:(No % 2 != 0)
+isNumDivisible = lambda No:((No % 3 == 0) and (No % 5 == 0))
 
 def main():
     Data=[]
@@ -13,7 +13,7 @@ def main():
 
     print("Input Data is:",Data)
 
-    FData=list(filter(CheckOddNum,Data))
+    FData=list(filter(isNumDivisible,Data))
     print("Data After Filter:",FData)
 
 if __name__=="__main__":
