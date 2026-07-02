@@ -5,7 +5,7 @@ def ReversePrint(No):
 def main():
     print("Enter Number: ")
     no=int(input())
-
+ 
     print("Reverse Number")
     ReversePrint(no)
 
