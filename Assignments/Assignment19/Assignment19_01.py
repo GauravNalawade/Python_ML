@@ -1,11 +1,11 @@
-Power=lambda no : no**2
+Power=lambda No : 2**No
 
 def main():
     print("Enter Number:")
-    no=int(input())
+    value=int(input())
 
-    Ret=Power(no)
-    print(f"Power of {no} is:",Ret)
+    Ret=Power(value)
+    print(f"Power of {value} is:",Ret)
 
 if __name__=="__main__":
     main()
