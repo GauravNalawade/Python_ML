@@ -26,7 +26,7 @@ class Arithmetic:
 aobj1=Arithmetic()
 aobj2=Arithmetic()
 
-aobj1.Accept(10,5)
+aobj1.Accept(10,0)
 
 Ret=aobj1.Addition()
 print("Addition is:",Ret)

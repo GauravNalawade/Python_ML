@@ -2,9 +2,9 @@ class Circle:
     PI=3.14
 
     def __init__(self):
-        Radius=0.0
-        Area=0.0
-        Circumference=0.0
+        self.Radius=0.0
+        self.Area=0.0
+        self.Circumference=0.0
 
     def Accept(self,r):
         self.Radius=r
@@ -13,7 +13,7 @@ class Circle:
         self.Area=Circle.PI*self.Radius*self.Radius
 
     def CalculateCircumference(self):
-        self.Circumference=2*self.PI*self.Radius
+        self.Circumference=2*Circle.PI*self.Radius
 
     def Display(self):
         print("Radius :",self.Radius)
