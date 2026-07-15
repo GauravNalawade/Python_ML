@@ -1,25 +1,31 @@
 import threading
-import time
 
-def Even():
-    print("First 10 Even Numbers are :")
-    for i in range(2,21,2):
-        print(i,end=" ")
-    print()
+def Maximum(Elements):
+    Max=Elements[0]
+    for i in Elements:
+        if i > Max:
+            Max=i
+    print("Maximum Number From List is:",Max)
 
-def Odd():
-    print("First 10 Odd Numbers are :")
-    for i in range(1,20,2):
-        print(i,end=" ")
-    print()
+def Minimum(Elements):
+    Min=Elements[0]
+    for i in Elements:
+        if i < Min:
+            Min=i 
+    print("Minimum Number From List is:",Min)
 
 def main():
+    Data=[]
+    print("Enter the size of list:")
+    size=int(input())
 
-    start_time=time.perf_counter()
+    for i in range(1,size+1):
+        no=int(input())
+        Data.append(no)
+    
+    tobj1=threading.Thread(target=Maximum,args=(Data,))
 
-    tobj1=threading.Thread(target=Even)
-
-    tobj2=threading.Thread(target=Odd)
+    tobj2=threading.Thread(target=Minimum,args=(Data,))
 
     tobj1.start()
     tobj2.start()
@@ -27,10 +33,7 @@ def main():
     tobj1.join()
     tobj2.join()
 
-    print("Execution Completed")
-    end_time=time.perf_counter()
-
-    print(f"Time Required {end_time-start_time:.4f}")
 
 if __name__=="__main__":
     main()
+

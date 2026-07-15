@@ -1,48 +1,37 @@
 import threading
 
-def Small(Str1):
-    print(f"Inside Small {threading.get_ident()}")
-    Count=0
-    for char in Str1:
-        if char.islower():
-            Count=Count+1
-    print("Number of LowerCase Character in String:",Count)
+def isPrime(No):
+        if No<=1:
+            return False
+        for i in range(2,No):
+            if No % i == 0:
+                return False
+        return True
 
+def PrintPrime(ELements):
+     print("Prime Numbers")
+     for i in ELements:
+          if (isPrime(i)):
+               print(i)
 
-def Capital(Str2):
-    print(f"Inside Capital {threading.get_ident()}")
-    Count=0
-    for char in Str2:
-        if char.isupper():
-            Count=Count+1
-
-    print("Number of UpperCase Character in String:",Count)
-
-def Digit(Str3):
-    print(f"Inside Digit {threading.get_ident()}")
-    Count=0
-    for char in Str3:
-        if char.isdigit():
-            Count=Count+1
-    print("Number of Numeric Digits in String:",Count)
+def NonPrime(Elements):
+     print("Non Prime Numbers")
+     for i in Elements:
+          if(isPrime(i)==False):
+                print(i)
 
 def main():
-    print("Inside Main",threading.get_ident())
-    print("Enter String")
-    Str=input()
+    Data=[1,2,3,5,7,11,12]
 
-    tobj1=threading.Thread(target=Small,args=(Str,))
-    tobj2=threading.Thread(target=Capital,args=(Str,))
-    tobj3=threading.Thread(target=Digit,args=(Str,))
-
+    tobj1=threading.Thread(target=PrintPrime,args=(Data,))
+    tobj2=threading.Thread(target=NonPrime,args=(Data,))
+    
     tobj1.start()
     tobj2.start()
-    tobj3.start()
 
     tobj1.join()
     tobj2.join()
-    tobj3.join()
 
 if __name__=="__main__":
-    main()
+    main();
 

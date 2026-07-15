@@ -1,41 +1,46 @@
 import threading
 
-def EvenFactor(No):
-    Sum=0
-    for i in range(1,No+1):
-        if No%i ==0 and i %2 ==0:
-            print(i)
-            Sum=Sum+i
-    print("Sum of Even Factors:",Sum)
+ElemenstSum=0
+ElementsProd=0
 
-def OddFactor(No):
+def SumOfElements(Elements):
+    global ElemenstSum
     Sum=0
-    for i in range(1,No):
-        if No%i ==0 and i %2 !=0:
-            print(i)
-            Sum=Sum+i
-    print("Sum of Odd Factors:",Sum)
+    for i in Elements:
+        Sum+=i
+    ElemenstSum=Sum
 
+def ProductOfElements(Elements):
+    global ElementsProd
+    Product=1
+    for i in Elements:
+        Product*=i
+    ElementsProd=Product
 
 def main():
-    print("Enter Number")
-    no=int(input())
+    Data=[]
+    print("Enter the size of list:")
+    size=int(input())
 
+    for i in range(size):
+        no=int(input())
+        Data.append(no)
 
-    tobj1=threading.Thread(target=EvenFactor,args=(no,))
+    tobj1=threading.Thread(target=SumOfElements,args=(Data,))
 
-    tobj2=threading.Thread(target=OddFactor,args=(no,))
-
+    tobj2=threading.Thread(target=ProductOfElements,args=(Data,))
+      
     tobj1.start()
     tobj2.start()
 
     tobj1.join()
     tobj2.join()
 
-    print("Exit From Main")
+    print("Sum of Elements in list are:",ElemenstSum)
+
+    print("Product of Elements in list are:",ElementsProd)
 
 if __name__=="__main__":
     main()
-
 
 
