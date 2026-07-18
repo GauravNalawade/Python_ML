@@ -1,0 +1,16 @@
+def main():
+    try:
+        fobj=open("Demo.txt","r")
+        print("File gets Opened")
+
+        Data=fobj.read(10)
+        
+        print(Data)
+
+        fobj.close()
+
+    except FileNotFoundError as fobj:
+        print("file is not present in current directory:",fobj)
+
+if __name__=="__main__":
+    main() 
