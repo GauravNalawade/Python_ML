@@ -5,16 +5,6 @@ def main():
     try:
         fobj=open(filename,"r")
 
-        # Data=fobj.read()
-        # if Data=="":
-        #     Count=0
-        # else:
-        #     Count=1
-
-        # for i in Data:
-        #     if i == "\n":
-        #         Count+=1
-
         lines=fobj.readlines()
         Count=len(lines)
 
@@ -24,7 +14,6 @@ def main():
 
     except FileNotFoundError as e:
         print("File Not Present in Current directoty:",e)
-        return 0
     
 
 if __name__=="__main__":

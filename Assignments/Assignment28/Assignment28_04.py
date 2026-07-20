@@ -1,30 +1,24 @@
 import sys
 
 def main():
-        
-        try:
-            FileName1=(sys.argv[1])
-            FileName2=(sys.argv[2])
+     print("Enter Existing FileName:")
+     existingFile=input()
 
-            fobj1=open(FileName1,"r")
-            fobj2=open(FileName2,"r")
+     print("Enter Destination FileName:")
+     destinationFile=input()
 
-            Data1=fobj1.read()
-            Data2=fobj2.read()
+     try:
+          fobj1=open(existingFile,"r")
+          fobj2=open(destinationFile,"w")
 
-            if(Data1==Data2):
-                 print("Both file Contains Same Data: Success")
-            else:
-                 print("Both file do Not Contains Same Data: Failure")
+          Data1=fobj1.read() 
+          fobj2.write(Data1) 
                  
-            fobj1.close()
-            fobj2.close()
+          fobj1.close()
+          fobj2.close()
 
-        except FileNotFoundError as e:
+     except FileNotFoundError as e:
              print("file is not present in current directory:",e)
-
-        except IndexError as iobj:
-             print("Usage:python Assignment29_04.py <file1> <file2>:",iobj)
 
 if __name__=="__main__":
     main()

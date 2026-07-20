@@ -1,11 +1,15 @@
-def CountFrequency(FileName,SearchString):
+def WordPresent(FileName,SearchString):
     try:
         fobj=open(FileName,"r")
         Data=fobj.read()
         fobj.close()
 
-        Count=Data.count(SearchString)
-        return Count
+        word=Data.split()
+        
+        if SearchString in word:
+            print(f"Word {SearchString} found in file {FileName}")
+        else:
+            print(f"Word {SearchString} is Not found in file {FileName}")
 
     except FileNotFoundError as e:
         print("File Not Present in Current directoty:",e)
@@ -15,12 +19,10 @@ def main():
     print("Enter FileName")
     filename=input()
 
-    print("Enter String that you want to search")
+    print("Enter Word that you want to search")
     searchstring=input()
 
-    Ret=CountFrequency(filename,searchstring)
-    print(f"How many times {searchstring} appears in {filename}:",Ret)
-    
+    WordPresent(filename,searchstring)
 
 if __name__=="__main__":
     main()
