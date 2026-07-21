@@ -1,6 +1,6 @@
 ####################################################################
 #
-# Importing Required Libraries
+#   Importing Required Libraries
 #
 ####################################################################
 
@@ -11,23 +11,26 @@ import schedule
 
 ####################################################################
 #
-# Function Name : DirectoryScanner
-# Input:          Name of Directory
-# Description:    Delete all empty files periodically
-# Date:           19/07/1026
-# Author:         Gaurav Sunil Nalawade
+#   Function Name : DirectoryScanner
+#   Input:          Name of Directory
+#   Description:    Delete all empty files periodically
+#   Date:           19/07/1026
+#   Author:         Gaurav Sunil Nalawade
 #
 ####################################################################
 
 
 def DirectoryScanner(DirectoryPath):
     Border="-"*40
+
     timestamp = time.ctime()
+
     LogFileName="Marvellous%s.log"%(timestamp)
     LogFileName=LogFileName.replace(" ","_")
     LogFileName=LogFileName.replace(":","_")
 
     Ret=False
+
     Ret=os.path.exists(DirectoryPath)
     
     if(Ret==False):
@@ -61,15 +64,15 @@ def DirectoryScanner(DirectoryPath):
             TotalFiles=TotalFiles+1
 
             fname =os.path.join(FolderName,fname)
-            fobj.write(fname+":"+os.path.getsize(fname)+"bytes \n")
+            fobj.write(f"{fname}: {os.path.getsize(fname)} bytes\n")
 
             if(os.path.getsize(fname)==0):
                 EmptyFiles=EmptyFiles+1 
                 os.remove(fname)
 
     fobj.write(Border+"\n")
-    fobj.write("Total files Scanned:"+TotalFiles+"\n")
-    fobj.write("Total Empty file found and Deleted:"+EmptyFiles+"\n")
+    fobj.write(f"Total files Scanned: {TotalFiles}\n")
+    fobj.write(f"Total Empty file found and Deleted:{EmptyFiles}\n")
 
     fobj.write(Border+"\n")
     fobj.write("Log file gets Creates at:"+timestamp)
@@ -88,9 +91,11 @@ def DirectoryScanner(DirectoryPath):
 ####################################################################
 def main():
     Border="-"*40
+
     print(Border)
     print("Marvellous AutomationScript")
     print(Border)
+
     if (len(sys.argv) ==2):
         if (sys.argv[1]=="--h" or sys.argv[1]=="--H"):
             print("This Automation Script is used to travel the directory")
@@ -100,8 +105,6 @@ def main():
             print("Python FileName.py DirectoryName")
             print("Directory Name should be Absolute path")
         else:
-            # DirectoryScanner(sys.argv[1])
-
             schedule.every(1).minute.do(DirectoryScanner,sys.argv[1])
 
             while(True):
@@ -112,7 +115,7 @@ def main():
         print("Please use --h or --u for more information")
 
     print(Border)
-    print("THank you for uing Marvellous AutomationScript")
+    print("Thank you for uing Marvellous Automation Script")
     print(Border)
 
 ####################################################################
