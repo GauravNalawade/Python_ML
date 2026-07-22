@@ -3,8 +3,8 @@ import time
 import datetime
  
 def CurrentDateTime():
-    CurrentTime=datetime.datetime.now() 
-    print("Current Date and Time : ",CurrentTime.strftime("%d-%m-%Y %I:%M:%S:%p"))
+    CurrentDateTime=datetime.datetime.now() 
+    print("Current Date and Time : ",CurrentDateTime.strftime("%d-%m-%Y %I:%M:%S:%p"))
 
 def main():
      schedule.every(1).minutes.do(CurrentDateTime)
