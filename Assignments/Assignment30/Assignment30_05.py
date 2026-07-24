@@ -7,7 +7,7 @@ def Display():
     fobj=open("Marvellous.txt","a")
 
     CurrentDatetime=datetime.datetime.now()
-    Data=(f"Task executed at:{CurrentDatetime.strftime("%d-%m-%Y %I:%M:%S:%p")}\n")
+    Data=(f"Task executed at: {CurrentDatetime.strftime("%d-%m-%Y %I:%M:%S %p")}\n")
 
     fobj.write(Data) 
 

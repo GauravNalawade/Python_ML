@@ -7,7 +7,6 @@ def Codingkar():
 def main():
     schedule.every(30).minutes.do(Codingkar)
 
-
     while(True):
         schedule.run_pending()
         time.sleep(1) 
