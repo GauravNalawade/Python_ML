@@ -1,0 +1,1812 @@
+--------------------------------------------------
+---- Marvellous Platform Survillence System ----
+Log file gets created at : 2026-07-27_22-36-28
+--------------------------------------------------
+
+---------------- System Report -----------------
+Number of active CPU cores : 12
+CPU Usage : 11.9 %
+--------------------------------------------------
+RAM Usage : 88.5 %
+Total RAM available : 8269271040
+--------------------------------------------------
+Network Usage Report
+Sent : 3.88 MB
+Receive : 22.94 MB 
+--------------------------------------------------
+
+PID : 0
+Name : System Idle Process
+User Name : NT AUTHORITY\SYSTEM
+Status : running
+CPU usage : 0.00
+RAM usage : 0.00
+--------------------------------------------------
+PID : 4
+Name : System
+User Name : NT AUTHORITY\SYSTEM
+Status : running
+CPU usage : 0.00
+RAM usage : 0.05
+--------------------------------------------------
+PID : 188
+Name : 
+User Name : None
+Status : stopped
+CPU usage : 0.00
+RAM usage : 0.42
+--------------------------------------------------
+PID : 232
+Name : Registry
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.31
+--------------------------------------------------
+PID : 840
+Name : smss.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.02
+--------------------------------------------------
+PID : 1036
+Name : WUDFHost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 1076
+Name : WUDFHost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 1244
+Name : csrss.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.08
+--------------------------------------------------
+PID : 1332
+Name : wininit.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 1340
+Name : csrss.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.09
+--------------------------------------------------
+PID : 1412
+Name : winlogon.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 1444
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 1480
+Name : services.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.26
+--------------------------------------------------
+PID : 1488
+Name : LsaIso.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.05
+--------------------------------------------------
+PID : 1508
+Name : lsass.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.40
+--------------------------------------------------
+PID : 1656
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.54
+--------------------------------------------------
+PID : 1688
+Name : fontdrvhost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.08
+--------------------------------------------------
+PID : 1696
+Name : fontdrvhost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.06
+--------------------------------------------------
+PID : 1704
+Name : WUDFHost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 1836
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.24
+--------------------------------------------------
+PID : 1876
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.19
+--------------------------------------------------
+PID : 1940
+Name : WUDFHost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.26
+--------------------------------------------------
+PID : 2016
+Name : dwm.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 1.07
+--------------------------------------------------
+PID : 2060
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.10
+--------------------------------------------------
+PID : 2080
+Name : svchost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.28
+--------------------------------------------------
+PID : 2092
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.09
+--------------------------------------------------
+PID : 2124
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.09
+--------------------------------------------------
+PID : 2140
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.09
+--------------------------------------------------
+PID : 2144
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+PID : 2160
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.36
+--------------------------------------------------
+PID : 2264
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.70
+--------------------------------------------------
+PID : 2308
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 2320
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.25
+--------------------------------------------------
+PID : 2324
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 2336
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.20
+--------------------------------------------------
+PID : 2396
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.22
+--------------------------------------------------
+PID : 2456
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 2500
+Name : IntelCpHDCPSvc.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.10
+--------------------------------------------------
+PID : 2524
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+PID : 2552
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 2620
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.27
+--------------------------------------------------
+PID : 2656
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.26
+--------------------------------------------------
+PID : 2736
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 2804
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.29
+--------------------------------------------------
+PID : 2956
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 3168
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.34
+--------------------------------------------------
+PID : 3272
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 3284
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 3292
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 3300
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.10
+--------------------------------------------------
+PID : 3312
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 3364
+Name : msedge.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 3464
+Name : MemCompression
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.83
+--------------------------------------------------
+PID : 3532
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 3572
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 3588
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 3676
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.23
+--------------------------------------------------
+PID : 3708
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+PID : 3752
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.35
+--------------------------------------------------
+PID : 3756
+Name : svchost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+PID : 3908
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 3920
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.30
+--------------------------------------------------
+PID : 3936
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 2.65
+--------------------------------------------------
+PID : 3940
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.48
+--------------------------------------------------
+PID : 3984
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.33
+--------------------------------------------------
+PID : 4000
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 4100
+Name : AsusOptimization.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 4108
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.24
+--------------------------------------------------
+PID : 4228
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.36
+--------------------------------------------------
+PID : 4308
+Name : spoolsv.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.23
+--------------------------------------------------
+PID : 4368
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.22
+--------------------------------------------------
+PID : 4444
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.24
+--------------------------------------------------
+PID : 4460
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 4504
+Name : MpDefenderCoreService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 4532
+Name : TNSLSNR.EXE
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 4536
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 4628
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 4692
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.21
+--------------------------------------------------
+PID : 4700
+Name : AsusPTPService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 4716
+Name : AsusSoftwareManager.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.23
+--------------------------------------------------
+PID : 4724
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 4732
+Name : AsusScreenXpertHostService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 4744
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.49
+--------------------------------------------------
+PID : 4756
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.27
+--------------------------------------------------
+PID : 4764
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.23
+--------------------------------------------------
+PID : 4776
+Name : AsusAppService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 4788
+Name : AsusSystemAnalysis.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.24
+--------------------------------------------------
+PID : 4800
+Name : AsusSwitch.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 4820
+Name : svchost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.52
+--------------------------------------------------
+PID : 4828
+Name : AsusSystemDiagnosis.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 4844
+Name : ipfsvc.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.09
+--------------------------------------------------
+PID : 4860
+Name : ELANFPService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.09
+--------------------------------------------------
+PID : 4888
+Name : OfficeClickToRun.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.54
+--------------------------------------------------
+PID : 4984
+Name : OneApp.IGCC.WinService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.47
+--------------------------------------------------
+PID : 5004
+Name : DtsApo4Service.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.10
+--------------------------------------------------
+PID : 5028
+Name : IntelAudioService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 5096
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.19
+--------------------------------------------------
+PID : 5112
+Name : jhi_service.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 5128
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.19
+--------------------------------------------------
+PID : 5144
+Name : NgcIso.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.05
+--------------------------------------------------
+PID : 5148
+Name : wlanext.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.10
+--------------------------------------------------
+PID : 5176
+Name : mongod.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.50
+--------------------------------------------------
+PID : 5184
+Name : RtkAudUService64.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.21
+--------------------------------------------------
+PID : 5192
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 5216
+Name : RstMwService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+PID : 5232
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 3.22
+--------------------------------------------------
+PID : 5236
+Name : mysqld.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 5244
+Name : oracle.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.86
+--------------------------------------------------
+PID : 5256
+Name : ipf_uf.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 5288
+Name : SafeExamBrowser.Service.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 5304
+Name : sqlwriter.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 5360
+Name : WMIRegistrationService.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 5372
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.10
+--------------------------------------------------
+PID : 5380
+Name : MsMpEng.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 2.98
+--------------------------------------------------
+PID : 5388
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.35
+--------------------------------------------------
+PID : 5404
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.26
+--------------------------------------------------
+PID : 5532
+Name : ApplicationFrameHost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.55
+--------------------------------------------------
+PID : 5592
+Name : wslservice.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 5612
+Name : SearchIndexer.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.22
+--------------------------------------------------
+PID : 5768
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 5792
+Name : smartscreen.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 6136
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 6304
+Name : AppActions.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.26
+--------------------------------------------------
+PID : 6472
+Name : Widgets.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.22
+--------------------------------------------------
+PID : 6556
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.02
+--------------------------------------------------
+PID : 6608
+Name : AsusOptimizationStartupTask.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 6668
+Name : mysqld.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.46
+--------------------------------------------------
+PID : 6716
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 6752
+Name : RtkAudUService64.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.23
+--------------------------------------------------
+PID : 6824
+Name : conhost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 6928
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.71
+--------------------------------------------------
+PID : 6976
+Name : MoUsoCoreWorker.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.39
+--------------------------------------------------
+PID : 6992
+Name : SearchHost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.71
+--------------------------------------------------
+PID : 7060
+Name : StartMenuExperienceHost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.11
+--------------------------------------------------
+PID : 7072
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.41
+--------------------------------------------------
+PID : 7084
+Name : python.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.26
+--------------------------------------------------
+PID : 7284
+Name : ipf_helper.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 7348
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.31
+--------------------------------------------------
+PID : 7360
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 7364
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 7376
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.19
+--------------------------------------------------
+PID : 7400
+Name : WmiPrvSE.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 7412
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.04
+--------------------------------------------------
+PID : 7564
+Name : msedge.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.60
+--------------------------------------------------
+PID : 7764
+Name : sqlservr.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.81
+--------------------------------------------------
+PID : 7808
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.04
+--------------------------------------------------
+PID : 7912
+Name : WmiPrvSE.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.20
+--------------------------------------------------
+PID : 8228
+Name : SystemSettings.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : stopped
+CPU usage : 0.00
+RAM usage : 0.47
+--------------------------------------------------
+PID : 8372
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.22
+--------------------------------------------------
+PID : 8472
+Name : sihost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.39
+--------------------------------------------------
+PID : 8752
+Name : RuntimeBroker.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 8816
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.32
+--------------------------------------------------
+PID : 8828
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.19
+--------------------------------------------------
+PID : 9112
+Name : taskhostw.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.28
+--------------------------------------------------
+PID : 9128
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 9328
+Name : svchost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 9356
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 9452
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.21
+--------------------------------------------------
+PID : 9496
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.33
+--------------------------------------------------
+PID : 9512
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+PID : 9768
+Name : CrossDeviceResume.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.25
+--------------------------------------------------
+PID : 9836
+Name : explorer.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.69
+--------------------------------------------------
+PID : 9944
+Name : ShellHost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.19
+--------------------------------------------------
+PID : 10200
+Name : AggregatorHost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 10316
+Name : svchost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.45
+--------------------------------------------------
+PID : 10332
+Name : RuntimeBroker.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.39
+--------------------------------------------------
+PID : 10568
+Name : NisSrv.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.19
+--------------------------------------------------
+PID : 10652
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 10664
+Name : ctfmon.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.30
+--------------------------------------------------
+PID : 10836
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.96
+--------------------------------------------------
+PID : 10840
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 10968
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.68
+--------------------------------------------------
+PID : 11200
+Name : CrossDeviceService.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.54
+--------------------------------------------------
+PID : 11500
+Name : svchost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 11512
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 2.00
+--------------------------------------------------
+PID : 11516
+Name : WidgetService.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 11604
+Name : AsusSoftwareManagerAgent.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.52
+--------------------------------------------------
+PID : 11656
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.23
+--------------------------------------------------
+PID : 12096
+Name : AsusOSD.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.19
+--------------------------------------------------
+PID : 12272
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.16
+--------------------------------------------------
+PID : 12348
+Name : RuntimeBroker.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 12432
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.35
+--------------------------------------------------
+PID : 12440
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.33
+--------------------------------------------------
+PID : 12504
+Name : unsecapp.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 12612
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 12692
+Name : RuntimeBroker.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.30
+--------------------------------------------------
+PID : 12752
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.37
+--------------------------------------------------
+PID : 12776
+Name : LockApp.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : stopped
+CPU usage : 0.00
+RAM usage : 0.41
+--------------------------------------------------
+PID : 12864
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.20
+--------------------------------------------------
+PID : 13588
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.06
+--------------------------------------------------
+PID : 13900
+Name : svchost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.20
+--------------------------------------------------
+PID : 13932
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 4.99
+--------------------------------------------------
+PID : 14076
+Name : AsusScreenXpertUI.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.21
+--------------------------------------------------
+PID : 14096
+Name : svchost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 14216
+Name : ms-teams.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.39
+--------------------------------------------------
+PID : 14348
+Name : ms-teams.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.61
+--------------------------------------------------
+PID : 14480
+Name : TextInputHost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.29
+--------------------------------------------------
+PID : 14888
+Name : OneDrive.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.40
+--------------------------------------------------
+PID : 14896
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 2.58
+--------------------------------------------------
+PID : 15060
+Name : msedge.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.25
+--------------------------------------------------
+PID : 15108
+Name : msedge.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.22
+--------------------------------------------------
+PID : 15128
+Name : taskhostw.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.45
+--------------------------------------------------
+PID : 15148
+Name : msedge.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.28
+--------------------------------------------------
+PID : 15168
+Name : elevation_service.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 15364
+Name : msedge.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.33
+--------------------------------------------------
+PID : 15536
+Name : UserOOBEBroker.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+PID : 15572
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 15760
+Name : cmd.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.09
+--------------------------------------------------
+PID : 15768
+Name : conhost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 15844
+Name : browserhost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 16004
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.02
+--------------------------------------------------
+PID : 16188
+Name : RtkAudUService64.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.06
+--------------------------------------------------
+PID : 16208
+Name : servicehost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.31
+--------------------------------------------------
+PID : 16472
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.15
+--------------------------------------------------
+PID : 16480
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.33
+--------------------------------------------------
+PID : 16540
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.07
+--------------------------------------------------
+PID : 16680
+Name : audiodg.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.26
+--------------------------------------------------
+PID : 16700
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.23
+--------------------------------------------------
+PID : 16964
+Name : uihost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.37
+--------------------------------------------------
+PID : 16984
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.36
+--------------------------------------------------
+PID : 17104
+Name : WhatsApp.Root.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.85
+--------------------------------------------------
+PID : 17220
+Name : RuntimeBroker.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 17324
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.71
+--------------------------------------------------
+PID : 17352
+Name : msedgewebview2.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.17
+--------------------------------------------------
+PID : 17628
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.49
+--------------------------------------------------
+PID : 17644
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 2.99
+--------------------------------------------------
+PID : 17792
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 17812
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 17952
+Name : sqlceip.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.37
+--------------------------------------------------
+PID : 18032
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 18040
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.10
+--------------------------------------------------
+PID : 18076
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.23
+--------------------------------------------------
+PID : 18204
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 18264
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.41
+--------------------------------------------------
+PID : 18276
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.17
+--------------------------------------------------
+PID : 18340
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.18
+--------------------------------------------------
+PID : 18528
+Name : powershell.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.03
+--------------------------------------------------
+PID : 18544
+Name : pet.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.11
+--------------------------------------------------
+PID : 18556
+Name : conhost.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.08
+--------------------------------------------------
+PID : 18616
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.20
+--------------------------------------------------
+PID : 18660
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.57
+--------------------------------------------------
+PID : 18664
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.09
+--------------------------------------------------
+PID : 18700
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.60
+--------------------------------------------------
+PID : 19092
+Name : OpenConsole.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+PID : 19144
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 4.34
+--------------------------------------------------
+PID : 19240
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.20
+--------------------------------------------------
+PID : 19396
+Name : powershell.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.90
+--------------------------------------------------
+PID : 19432
+Name : RuntimeBroker.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.13
+--------------------------------------------------
+PID : 19692
+Name : Code.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 4.50
+--------------------------------------------------
+PID : 19816
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.36
+--------------------------------------------------
+PID : 19864
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.77
+--------------------------------------------------
+PID : 19936
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 1.15
+--------------------------------------------------
+PID : 19944
+Name : chrome.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.24
+--------------------------------------------------
+PID : 20060
+Name : svchost.exe
+User Name : None
+Status : running
+CPU usage : 0.00
+RAM usage : 0.12
+--------------------------------------------------
+PID : 20176
+Name : SDXHelper.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.40
+--------------------------------------------------
+PID : 20348
+Name : OpenConsole.exe
+User Name : LAPTOP-8HGL032K\ASUS
+Status : running
+CPU usage : 0.00
+RAM usage : 0.14
+--------------------------------------------------
+--------------------------------------------------
+--------------- End of Log File ----------------
+--------------------------------------------------
