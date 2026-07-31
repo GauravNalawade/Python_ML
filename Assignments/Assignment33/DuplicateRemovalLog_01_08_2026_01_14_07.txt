@@ -1,0 +1,47 @@
+--------------------------------------------------
+---------Duplicate File Removal Automation--------
+Log file gets created at :01_08_2026_01_14_07
+--------------------------------------------------
+
+--------------------------------------------------
+---------------Deleted Files Report---------------
+--------------------------------------------------
+
+Starting time of directory scanning :01_08_2026 01:14:07 AM
+Completion time of directory scanning :01_08_2026 01:14:07 AM
+Scanned directory name: C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes
+Total number of files scanned: 13
+Total number of Duplicate files found: 12
+Total number of duplicate files deleted : 10
+--------------------------------------------------
+Checsum: 9ca64d8704f64b906aac2b214c25a2a8
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumFinal copy 2.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumFinal copy 3.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumFinal copy 4.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumFinal copy.py
+--------------------------------------------------
+
+--------------------------------------------------
+Checsum: e0302203acc008ff2e8860bda9965641
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 2.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 3.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 4.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 5.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 6.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 7.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy.py
+File : C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX.py
+--------------------------------------------------
+
+Complete paths of all deleted duplicate files:
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumFinal copy 3.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumFinal copy 4.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumFinal copy.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 3.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 4.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 5.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 6.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy 7.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX copy.py
+path:C:\Users\ASUS\Desktop\PythonML\Learning\Automation\Tes\CalculateChecksumX.py
+Mail Sent Sucessfully
