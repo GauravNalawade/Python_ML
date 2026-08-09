@@ -93,7 +93,7 @@ plt.grid()
 plt.show()
 
 #########################################
-# Step 4: Split the dataset for training and Testing
+# Step 5: Split the dataset for training and Testing
 #########################################
 
 
