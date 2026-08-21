@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 def main():
-
+    
     DataFilePath="student_performance_ml.csv"  
 
     df=pd.read_csv(DataFilePath) 
@@ -20,6 +20,20 @@ def main():
 
     print("Data Types of each column")
     print(df.dtypes) 
+
+    # 2
+
+    print("Total Number of Students:",rows)
+
+    print("Students Passed:",(df['FinalResult']==1).sum())
+    print("Students Failed:",(df['FinalResult']==0).sum())
+    print("Passed and Failed Students:",df['FinalResult'].value_counts())
+
+    print("Average StudyHours:",(df['StudyHours'].mean()))
+    print("Average Attendence:",(df['Attendance'].mean()))
+    print("Maximum PreviousScore:",(df['PreviousScore'].max()))
+    print("Minimum SleepHours:",(df['SleepHours'].min()))
+
 
 if __name__=="__main__":
     main()

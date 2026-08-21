@@ -21,5 +21,21 @@ def main():
     print("Data Types of each column")
     print(df.dtypes) 
 
+    # 2
+
+    print("Total Number of Students:",rows)
+
+    print("Students Passed:",(df['FinalResult']==1).sum())
+    print("Students Failed:",(df['FinalResult']==0).sum())
+
+    # 3
+    print("Average StudyHours:",(df['StudyHours'].mean()))
+    print("Average Attendence:",(df['Attendance'].mean()))
+    print("Maximum PreviousScore:",(df['PreviousScore'].max()))
+    print("Minimum SleepHours:",(df['SleepHours'].min()))
+
+    # 4
+    print("Passed and Failed Students:",df['FinalResult'].value_counts())
+
 if __name__=="__main__":
     main()

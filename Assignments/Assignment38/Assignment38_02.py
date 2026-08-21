@@ -21,5 +21,13 @@ def main():
     print("Data Types of each column")
     print(df.dtypes) 
 
+    # 2
+
+    print("Total Number of Students:",rows)
+
+    print("Students Passed:",(df['FinalResult']==1).sum())
+    print("Students Failed:",(df['FinalResult']==0).sum())
+    print("Passed and Failed Students:",df['FinalResult'].value_counts())
+
 if __name__=="__main__":
     main()
