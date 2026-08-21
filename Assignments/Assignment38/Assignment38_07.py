@@ -52,6 +52,22 @@ def main():
 
     plt.show()
 
+    # 7
+    plt.figure(figsize=(7,5))
+
+    for sp in df["FinalResult"].unique():
+        temp = df[df["FinalResult"] == sp]
+        plt.scatter(temp["StudyHours"], temp["PreviousScore"],label = sp)
+
+    plt.title("")
+
+    plt.xlabel("StudyHours")
+    plt.ylabel("PreviousScore")
+
+    plt.legend()
+    plt.grid()
+    plt.show()
+
     
 if __name__=="__main__":
     main()

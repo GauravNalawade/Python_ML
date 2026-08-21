@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 from sklearn.model_selection import train_test_split
 
 def main():
@@ -52,6 +53,37 @@ def main():
 
     plt.show()
 
-    
+    # 7
+    plt.figure(figsize=(7,5))
+
+    for sp in df["FinalResult"].unique():
+        temp = df[df["FinalResult"] == sp]
+        plt.scatter(temp["StudyHours"], temp["PreviousScore"],label = sp)
+
+    plt.title("")
+
+    plt.xlabel("StudyHours")
+    plt.ylabel("PreviousScore")
+
+    plt.legend()
+    plt.grid()
+    plt.show()
+
+    # 8
+    sns.boxplot(y=df['Attendance'])
+
+    plt.title("BoxPlot for Attendence")
+    plt.show()
+
+    # 9
+    sns.boxplot(
+        x=df['FinalResult'],
+        y=df['AssignmentsCompleted']
+    )
+    plt.xlabel("Final Result")
+    plt.ylabel("Assignment Completed")
+    plt.title("Assignment Completed VS Final Result")
+    plt.show()
+
 if __name__=="__main__":
     main()
