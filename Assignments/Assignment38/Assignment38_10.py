@@ -72,13 +72,13 @@ def main():
     plt.show()
 
     # 8
-    sns.boxplot(y=df['Attendance'])
+    sns.boxplot(y=df['Attendance']) 
 
     plt.title("BoxPlot for Attendence")
     plt.show()
 
     # 9
-    sns.boxplot(
+    sns.boxplot(  
         x=df['FinalResult'],
         y=df['AssignmentsCompleted']
     )

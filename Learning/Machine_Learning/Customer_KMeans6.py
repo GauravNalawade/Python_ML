@@ -24,7 +24,7 @@ def main():
     # Step 3: Scale the Data
     scalar=StandardScaler()
 
-    X_Scaled=scalar.fit_transform(X)
+    X_Scaled=scalar.fit_transform(X) 
 
     print("Scaled Data:")
     print(X_Scaled[:5])

@@ -59,10 +59,10 @@ def DeleteDuplicate(DirectoryName):
         for subvalue in value:
             Count = Count + 1
             if(Count > 1):
-                os.remove(subvalue)   
+                os.remove(subvalue)
                 TotalDeleted = TotalDeleted + 1
         Count = 0
-        
+
     print("Total deleted files : ",TotalDeleted)
     
 def main():

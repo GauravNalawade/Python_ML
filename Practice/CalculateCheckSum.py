@@ -18,9 +18,10 @@ def CalculateChecksum(FileName):
     return hobj.hexdigest()
     
 def main():
-     Ret =CalculateChecksum("AutomationScript1.py")
+     
+     if(CalculateChecksum("Demo4.txt")==CalculateChecksum("Demo1.txt")):
+         os.remove("Demo1.txt")
 
-     print("CheckSum of file is:",Ret)
 
 if __name__=="__main__":
     main()

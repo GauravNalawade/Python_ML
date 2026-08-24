@@ -117,7 +117,7 @@ def PlatformSurvillance(FolderName):
     for info in Data:
         fobj.write("PID : %s\n" %info.get("pid"))
         fobj.write("Name : %s\n" %info.get("name"))
-        fobj.write("User Name : %s\n" %info.get("username"))
+        fobj.write("User Name : %s\n" %info.get("username")) 
         fobj.write("Status : %s\n" %info.get("status"))
         fobj.write("CPU usage : %.2f\n" %info.get("cpu_percent"))
         fobj.write("RAM usage : %.2f\n" %info.get("memory_percent"))
