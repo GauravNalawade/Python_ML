@@ -1,0 +1,102 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+
+def main():
+
+    DataFilePath="student_performance_ml.csv"  
+
+    df=pd.read_csv(DataFilePath) 
+
+    FirstFiveRecords=df.head()
+    print("First 5 Records Are :\n",FirstFiveRecords)
+
+    LastFiveRecords=df.tail()
+    print("Last 5 Records Are :\n",LastFiveRecords)
+
+    rows,columns=df.shape
+    print(f"Total numbers of Rows: {rows}")
+    print(f"Total numbers of Columns: {columns}") 
+
+    print("Data Types of each column")
+    print(df.dtypes) 
+
+    # 2
+
+    print("Total Number of Students:",rows)
+
+    print("Students Passed:",(df['FinalResult']==1).sum())
+    print("Students Failed:",(df['FinalResult']==0).sum())
+
+    # 3
+    print("Average StudyHours:",(df['StudyHours'].mean()))
+    print("Average Attendence:",(df['Attendance'].mean()))
+    print("Maximum PreviousScore:",(df['PreviousScore'].max()))
+    print("Minimum SleepHours:",(df['SleepHours'].min()))
+
+    # 4
+    print("Passed and Failed Students:",df['FinalResult'].value_counts())
+    percentage=df['FinalResult'].value_counts(normalize=True) *100
+    print(percentage)
+
+    # 6
+
+    plt.hist(
+        df['StudyHours'],
+        bins=4,
+        color="skyblue",
+        edgecolor="black"
+    )
+
+    plt.title("Histogram for Student Performance")
+    plt.xlabel("StudyHours")
+    plt.ylabel("Frequency")
+
+    plt.show()
+
+    # 7
+    plt.figure(figsize=(7,5))
+
+    for sp in df["FinalResult"].unique():
+        temp = df[df["FinalResult"] == sp]
+        plt.scatter(temp["StudyHours"], temp["PreviousScore"],label = sp)
+
+    plt.title("")
+
+    plt.xlabel("StudyHours")
+    plt.ylabel("PreviousScore")
+
+    plt.legend()
+    plt.grid()
+    plt.show()
+
+    # 8
+    sns.boxplot(y=df['Attendance']) 
+
+    plt.title("BoxPlot for Attendence")
+    plt.show()
+
+    # 9
+    sns.boxplot(  
+        x=df['FinalResult'],
+        y=df['AssignmentsCompleted']
+    )
+    plt.xlabel("Final Result")
+    plt.ylabel("Assignment Completed")
+    plt.title("Assignment Completed VS Final Result")
+    plt.show()
+
+    # 10
+    sns.boxplot(
+        x=df['FinalResult'],
+        y=df['SleepHours']
+    )
+    plt.xlabel("Final Result")
+    plt.ylabel("SleepHours")
+    plt.title("SleepHours against FinalResult")
+    plt.show()
+
+
+if __name__=="__main__":
+    main()
