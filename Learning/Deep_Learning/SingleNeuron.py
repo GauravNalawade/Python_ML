@@ -10,7 +10,7 @@ print("X :",input)
 weights=np.array([0.5,0.3,0.2])
 print("W :",weights)
 
-
+ 
 # Step3: Define bias ie b
 #     b
 bias=1.0
