@@ -99,7 +99,7 @@ z_out=h1*w_out1 +h2*w_out2 +b_out
 print("Weighted sum:",z_out)
 
 # Sigmoid
-z=1/(1+math.exp(z_out))
+z=1/(1+math.exp(-z_out))
 
 print("------------------------------------------")
 print("---------Neuran Network Summary-----------")
