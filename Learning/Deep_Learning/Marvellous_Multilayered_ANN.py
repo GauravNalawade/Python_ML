@@ -115,4 +115,4 @@ print("Prediction of Neural network")
 if(z >= 0.5):
     print("Predicted as POSITIVE CLASS")
 else:
-    print("Predicted as NEGATIVE CLASS")
+    print("Predicted as NEGATIVE CLASS") 
