@@ -177,6 +177,16 @@ print(Confusion_Matrix)
 # -------------------------------------------------------------
 # Step 16 : Plot the loss Curve
 # ------------------------------------------------------------- 
+plt.figure(figsize=(8,5))
+
+plt.plot(model.loss_curve_,linewidth=2)
+
+plt.title("MLP Training Loss Curve")
+plt.xlabel("Iterations")
+plt.ylabel("Loss")
+
+plt.grid(True)
+plt.show()
 
 # -------------------------------------------------------------
 # Step 17 : Create a function PredictAttrition(employee_data)
@@ -259,7 +269,10 @@ employee_data=pd.DataFrame([
 
 Result = PredictAttrition(employee_data)
 print("Predicted Result for new_employee :")
-print(Result) 
 
+for i, prediction in enumerate(Result, start=1):
 
-
+    if prediction == 0:
+        print(f"Employee {i} : Likely to Stay")
+    else:
+        print(f"Employee {i} : Likely to Leave")
