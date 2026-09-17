@@ -52,15 +52,15 @@ print("Numerical Features : ")
 print(numerical_features)
 
 print("Categorical Features : ")
-print(categorical_features)
+print(categorical_features)   
 
 # -----------------------------------------------------------------------------
 # Step 5 : Convert Categorical Features OverTime into numerical representation 
 # -----------------------------------------------------------------------------
 
-print("Uniques Values in Column OverTime")
+print("Uniques Values in Column OverTime")   
 print(data["OverTime"].unique())
-
+ 
 data["OverTime"]=data["OverTime"].map({
     "Yes": 1,
     "No" : 0
