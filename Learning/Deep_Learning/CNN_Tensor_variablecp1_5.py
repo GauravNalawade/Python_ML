@@ -11,4 +11,6 @@ print("Updated Weight value : ",weight.numpy()) #12.5
 
 weight.assign_sub(1.5)
 print("Updated Weight value : ",weight.numpy()) #11.0
- 
+
+print("Updated Weight value : ",weight.numpy()) #11.0
+
