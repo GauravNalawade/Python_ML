@@ -5,11 +5,12 @@ from transformers import AutoTokenizer
 tokenizer = AutoTokenizer.from_pretrained("gpt2")
 
 # Input Sentance
-sentance = " I Love AI"
+sentance = "I Love AI"
 
 # Convert the sentance into tokens 
 tokens = tokenizer.tokenize(sentance)
 
+# Convert sentence into token IDs
 token_ids = tokenizer.encode(
     sentance,
     add_special_tokens =False,
@@ -21,6 +22,8 @@ token_ids = tokenizer.encode(
 decoded = tokenizer.decode(token_ids)
 
 print("Original Sentance : ",sentance)
+
+print("Tokens :",tokens)
 
 print("Tokens IDs : ",token_ids)
 
