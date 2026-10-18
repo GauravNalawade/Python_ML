@@ -1,42 +1,42 @@
-import torch 
+import torch
 
 from transformers import AutoTokenizer
-from transformers import AutoModelForCasualLM
+from transformers import AutoModelForCausalLM
 
 # pretrained model name
 model_name = "distilgpt2"
 
-# Load Tokenizer 
+# Load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-# Load pretrained languge model
-model = AutoModelForCasualLM.from_pretrained(model_name)
+# Load pretranied language model
+model = AutoModelForCausalLM.from_pretrained(model_name)
 
-# Input Sentance
-sentance ="India is my country" 
+# Input sentance
+sentance = "India is my country"
 
-# Convert Text into Pytorch tensors 
+# Convert text into PyTorch tensors
 inputs = tokenizer(
     sentance,
     return_tensors = "pt"
 )
 
-# Extract TokenID
-token_ID = inputs["input_ids"]
+# Extract token ID
+token_ids = inputs["input_ids"]
 
-# Access the pretrained input embedding layer
+# Acces the pretrained input embedding layer
 embedding_layer = model.get_input_embeddings()
 
-# Retrieve the Embeddign Vector 
-embeddings = embedding_layer(token_ID)
+# Retrive the embedding vectors
+embeddings = embedding_layer(token_ids)
 
-print("Input Sentance : ",sentance)
+print("Input sentance : ",sentance)
 
 print("Token IDs : ")
-print(token_ID)
+print(token_ids)
 
-print("Embedding shape : ")
+print("Embedding Shape : ")
 print(embeddings.shape)
 
-print("First token embedding :")
+print("First token embedding ")
 print(embeddings[0,0, :10])

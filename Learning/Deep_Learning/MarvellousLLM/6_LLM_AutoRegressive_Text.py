@@ -1,4 +1,4 @@
-from transformer import pipeline 
+from transformers  import pipeline 
 
 # Load pre-trained text generation pipeline
 generator = pipeline(

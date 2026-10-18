@@ -1,50 +1,50 @@
-import torch 
+import torch
 
 from transformers import AutoTokenizer
-from transformers import AutoModelForCasualLM
+from transformers import AutoModelForCausalLM
 
 # pretrained model name
 model_name = "distilgpt2"
 
-# Load Tokenizer 
+# Load tokenizer
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-# Load pretrained languge model
-model = AutoModelForCasualLM.from_pretrained(model_name)
+# Load pretranied language model
+model = AutoModelForCausalLM.from_pretrained(model_name)
 
-# Input promt 
-promt ="I Love"
+#Input prompt
+prompt = "Python is a very"
 
-# Convert Input into token ids 
+# Convert input into token ids
 inputs = tokenizer(
-    promt,
+    prompt,
     return_tensors = "pt"
 )
 
-# Enable Evaluation mode
+# Enable evaluation mode
 model.eval()
 
-# perform inference without gradient calculations 
+# perform inference without gradient calculations
 with torch.no_grad():
     outputs = model(**inputs)
 
-# Extract logits for final input position 
+# Extract logits for final input position
 logits = outputs.logits[0,-1,:]
 
-# Convert logits into probabilities 
-probabilities = torch.softmax(
+# convert logits into probablities
+probablities = torch.softmax(
     logits,
     dim=-1
 )
 
-# select five highest proababilities tokens 
-values , indices = torch.topk( 
-    probabilities,
+# select five highest probablity tokens
+values, indices = torch.topk(
+    probablities,
     5
-) 
+)
 
-print("Input :",promt)
-for value,index in zip(values,indices):
+print("Input : ",prompt)
+
+for value,index in zip(values, indices):
     token = tokenizer.decode([index.item()])
-    print(repr(token), round(value.item(),4))
-
+    print(repr(token), round(value.item(), 4))
