@@ -15,4 +15,4 @@ model.compile(
     metrics=["accuracy"]
 )
 
-model.summary()
+model.summary()model
