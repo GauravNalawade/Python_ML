@@ -1,7 +1,18 @@
+# 2: Write a Python program to demonstrate different activation functions.
+# Functions to implement:
+# 1. Sigmoid
+# 2. ReLU
+# 3. Tanh
+# Tasks:
+# 1. Accept input values from -10 to 10.
+# 2. Plot all activation functions using Matplotlib.
+# 3. Explain the use of each activation function.
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 1. Define Activation Functions
+# 1. Define Activation Functions5
 
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
@@ -58,7 +69,7 @@ plt.ylabel("Activation Output")
 
 plt.axhline(y=0, color="black", linewidth=0.5)
 plt.axvline(x=0, color="black", linewidth=0.5)
-
+ 
 plt.grid(True)
 plt.legend()
 
